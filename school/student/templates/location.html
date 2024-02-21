@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'layout.html' %}
 
-<h3>location</h3>
-<p>Our school is located along kenyatta avenue thika town.</p>
+{% load static %}
 
+{% block body %}
 
-</body>
-</html>
+    <p>we are located at kenyatta avenue thika </p>
+    <img src="{% static 'images/Untitled.jpeg' %}" alt="">
+
+{% endblock %}

@@ -1,0 +1,17 @@
+.w{
+    color: blue;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+body{
+    background-color: darkkhaki;
+}
+img{
+    border-radius: 10px;
+    height: 90vh;
+    width: 70%;
+}
+.p{
+    font-family: FreeSerif;
+    color: cyan;
+    background-color: black;
+}
