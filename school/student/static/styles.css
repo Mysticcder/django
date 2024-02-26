@@ -4,6 +4,7 @@
 }
 body{
     background-color: darkkhaki;
+    margin-right: 20px;
 }
 img{
     border-radius: 10px;
@@ -14,4 +15,8 @@ img{
     font-family: FreeSerif;
     color: cyan;
     background-color: black;
+}
+.lk{
+    width: 100px;
+    height: 50vh;
 }
