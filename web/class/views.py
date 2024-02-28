@@ -10,13 +10,20 @@ def index(request):
 def inner(request):
     return render(request, 'inner-page.html')
 
+
 def portfolio(request):
     return render(request, 'portfolio-details.html')
+
 
 def student(request):
     student = Student.objects.all()
     return render(request, 'students.html', {"student": student})
 
+
 def teacher(request):
     teacher = Teacher.objects.all()
     return render(request, 'teachers.html', {"teacher": teacher})
+
+
+def insert(request):
+    return render(request, 'insert students.html')
